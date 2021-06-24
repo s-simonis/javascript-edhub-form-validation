@@ -3,8 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Form validation</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="main.js"></script>
 </head>
 <body>
+<form>
+    <h1>Registreren</h1>
+    <label for="usernameField">Gebruikersnaam:</label>
+    <input type="text" id="usernameField" name="username"><br><br>
+    <div id="warningUsername">Gebruikersnaam mag geen @ bevatten</div>
+
+    <label for="passwordField">Wachtwoord:</label>
+    <input type="password" id="passwordField" name="password">
+    <div id="warningPassword">Wachtwoord is te kort, gebruik minimaal 6 tekens</div>
+</form>
 
 </body>
 </html>

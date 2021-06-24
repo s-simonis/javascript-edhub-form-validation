@@ -1,0 +1,25 @@
+form {
+    margin: 50px;
+    padding: 30px;
+
+    width: 250px;
+    height: 250px;
+    font-family: Arial;
+    background-color:#C9EEE1;
+}
+
+input {
+    width: 225px;
+}
+
+#warningPassword {
+    visibility: hidden;
+    color: red;
+    font-size: 12px;
+}
+
+#warningUsername {
+    visibility: hidden;
+    color: red;
+    font-size: 12px;
+}
